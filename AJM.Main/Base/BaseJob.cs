@@ -22,7 +22,7 @@ namespace AJM.Main.Base
             //获取JobDataMap
             JobDataMap datamap = context.JobDetail.JobDataMap;
             //获取JobConfigEntity公共属性
-            PropertyInfo[] properties = typeof(JobConfigEntity).GetProperties(BindingFlags.Public);
+            PropertyInfo[] properties = typeof(JobConfigEntity).GetProperties();
             foreach (PropertyInfo info in properties)
             {
                 if (info.PropertyType == typeof(string))
