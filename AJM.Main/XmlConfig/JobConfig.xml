@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--===========文档说明 开始===========-->
+<!--作者：大师兄-->
+<!--版本：V1.0.0-->
+<!--日期：2017年12月29日-->
+
+<!--配置文件说明-->
+<!--Cron表达式。按顺序依次为：秒（0~59），分钟（0~59），小时（0~23），日（0~31），月（0~11），星期（1~7），年（1970－2099）-->
+<!--Cron表达式在线生成地址：http://cron.qqe2.com/-->
+
+<!--===========文档说明 结束===========-->
+
+<AJMSettings>
+  <Setting>
+    <!--设置项名称(唯一标识)-->
+    <Name>EmailServices</Name>
+    <!--枚举码(唯一标识)-->
+    <EnumCode></EnumCode>
+    <!--作业名称-->
+    <JobName>SendEmailJob</JobName>
+    <!--作业分组名称-->
+    <JobGroup>group_AJMJob</JobGroup>
+    <!--作业身份名称-->
+    <JobIdentityName>jb_SendEmail</JobIdentityName>
+    <!--触发器身份名称-->
+    <TriggerIdentityName>trigger_SendEmail</TriggerIdentityName>
+    <!--Cron表达式-->
+    <CronExpression>0 0/30 8 * * ? *</CronExpression>
+    <!--跳过日期，格式：yyyyMMdd-->
+    <SkipDate></SkipDate>
+  </Setting>
+  
+  <Setting>
+    <!--设置项名称(唯一标识)-->
+    <Name>TestJob</Name>
+    <!--枚举码(唯一标识)-->
+    <EnumCode></EnumCode>
+    <!--作业名称-->
+    <JobName>TestJob</JobName>
+    <!--作业分组名称-->
+    <JobGroup>group_AJMJob</JobGroup>
+    <!--作业身份名称-->
+    <JobIdentityName>jb_TestJob</JobIdentityName>
+    <!--触发器身份名称-->
+    <TriggerIdentityName>trigger_TestJob</TriggerIdentityName>
+    <!--Cron表达式-->
+    <CronExpression>0,10,20,30,40,50 0/1 * * * ? </CronExpression>
+    <!--跳过日期，格式：yyyyMMdd-->
+    <SkipDate></SkipDate>
+  </Setting>
+</AJMSettings>

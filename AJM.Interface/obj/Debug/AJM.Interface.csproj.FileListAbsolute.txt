@@ -1,0 +1,8 @@
+F:\VS2017Workspace\AutoJobManager\AJM.Interface\bin\Debug\AJM.Interface.dll
+F:\VS2017Workspace\AutoJobManager\AJM.Interface\bin\Debug\AJM.Interface.pdb
+F:\VS2017Workspace\AutoJobManager\AJM.Interface\obj\Debug\AJM.Interface.csprojResolveAssemblyReference.cache
+F:\VS2017Workspace\AutoJobManager\AJM.Interface\obj\Debug\AJM.Interface.csproj.CoreCompileInputs.cache
+F:\VS2017Workspace\AutoJobManager\AJM.Interface\obj\Debug\AJM.Interface.dll
+F:\VS2017Workspace\AutoJobManager\AJM.Interface\obj\Debug\AJM.Interface.pdb
+F:\VS2017Workspace\AutoJobManager\AJM.Interface\bin\Debug\AJM.Models.dll
+F:\VS2017Workspace\AutoJobManager\AJM.Interface\bin\Debug\AJM.Models.pdb
