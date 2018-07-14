@@ -14,3 +14,20 @@ F:\VS2017Workspace\AutoJobManager\AJM.Services\bin\Debug\AJM.Common.pdb
 F:\VS2017Workspace\AutoJobManager\AJM.Services\bin\Debug\AJM.Interface.pdb
 F:\VS2017Workspace\AutoJobManager\AJM.Services\bin\Debug\AJM.Models.pdb
 F:\VS2017Workspace\AutoJobManager\AJM.Services\bin\Debug\Newtonsoft.Json.xml
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Services.dll
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Services.pdb
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Cache.dll
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Common.dll
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Interface.dll
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Models.dll
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\Newtonsoft.Json.dll
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Cache.pdb
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Common.pdb
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Interface.pdb
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\AJM.Models.pdb
+F:\VS2017 Workspace\AJM\AJM.Services\bin\Debug\Newtonsoft.Json.xml
+F:\VS2017 Workspace\AJM\AJM.Services\obj\Debug\AJM.Services.csprojAssemblyReference.cache
+F:\VS2017 Workspace\AJM\AJM.Services\obj\Debug\AJM.Services.csproj.CoreCompileInputs.cache
+F:\VS2017 Workspace\AJM\AJM.Services\obj\Debug\AJM.Services.csproj.CopyComplete
+F:\VS2017 Workspace\AJM\AJM.Services\obj\Debug\AJM.Services.dll
+F:\VS2017 Workspace\AJM\AJM.Services\obj\Debug\AJM.Services.pdb

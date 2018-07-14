@@ -8,3 +8,14 @@ F:\VS2017Workspace\AutoJobManager\AJM.Cache\obj\Debug\AJM.Cache.csprojResolveAss
 F:\VS2017Workspace\AutoJobManager\AJM.Cache\obj\Debug\AJM.Cache.csproj.CoreCompileInputs.cache
 F:\VS2017Workspace\AutoJobManager\AJM.Cache\obj\Debug\AJM.Cache.dll
 F:\VS2017Workspace\AutoJobManager\AJM.Cache\obj\Debug\AJM.Cache.pdb
+F:\VS2017 Workspace\AJM\AJM.Cache\bin\Debug\AJM.Cache.dll
+F:\VS2017 Workspace\AJM\AJM.Cache\bin\Debug\AJM.Cache.pdb
+F:\VS2017 Workspace\AJM\AJM.Cache\bin\Debug\AJM.Interface.dll
+F:\VS2017 Workspace\AJM\AJM.Cache\bin\Debug\AJM.Models.dll
+F:\VS2017 Workspace\AJM\AJM.Cache\bin\Debug\AJM.Interface.pdb
+F:\VS2017 Workspace\AJM\AJM.Cache\bin\Debug\AJM.Models.pdb
+F:\VS2017 Workspace\AJM\AJM.Cache\obj\Debug\AJM.Cache.csprojAssemblyReference.cache
+F:\VS2017 Workspace\AJM\AJM.Cache\obj\Debug\AJM.Cache.csproj.CoreCompileInputs.cache
+F:\VS2017 Workspace\AJM\AJM.Cache\obj\Debug\AJM.Cache.csproj.CopyComplete
+F:\VS2017 Workspace\AJM\AJM.Cache\obj\Debug\AJM.Cache.dll
+F:\VS2017 Workspace\AJM\AJM.Cache\obj\Debug\AJM.Cache.pdb

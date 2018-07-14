@@ -30,9 +30,27 @@ namespace AJM.Main
         }
 
         /// <summary>
+        /// 启动服务
+        /// </summary>
+        public void OnStart()
+        {
+            // TODO: 在此处添加代码以启动服务。
+            _manage.JobStart();
+        }
+
+        /// <summary>
         /// 停止服务
         /// </summary>
         protected override void OnStop()
+        {
+            // TODO: 在此处添加代码以执行停止服务所需的关闭操作。
+            _manage.JobStop();
+        }
+
+        /// <summary>
+        /// 停止服务
+        /// </summary>
+        public void OnStopService()
         {
             // TODO: 在此处添加代码以执行停止服务所需的关闭操作。
             _manage.JobStop();

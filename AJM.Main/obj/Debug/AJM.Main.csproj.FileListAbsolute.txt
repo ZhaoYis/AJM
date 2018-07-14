@@ -26,3 +26,33 @@ F:\VS2017Workspace\AutoJobManager\AJM.Main\bin\Debug\AJM.Interface.pdb
 F:\VS2017Workspace\AutoJobManager\AJM.Main\bin\Debug\AJM.Cache.pdb
 F:\VS2017Workspace\AutoJobManager\AJM.Main\obj\Debug\AJM.Main.csprojResolveAssemblyReference.cache
 F:\VS2017Workspace\AutoJobManager\AJM.Main\bin\Debug\AJM.Main.exe.config
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Main.exe.config
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Main.exe
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Main.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Common.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Models.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Services.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Common.Logging.Core.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Common.Logging.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Quartz.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Newtonsoft.Json.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Interface.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Cache.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Common.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Models.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Services.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Common.Logging.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Common.Logging.xml
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Common.Logging.Core.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Common.Logging.Core.xml
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Quartz.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Quartz.xml
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Newtonsoft.Json.xml
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Interface.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\AJM.Cache.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\obj\Debug\AJM.Main.csprojAssemblyReference.cache
+F:\VS2017 Workspace\AJM\AJM.Main\obj\Debug\AJM.Main.csproj.CoreCompileInputs.cache
+F:\VS2017 Workspace\AJM\AJM.Main\obj\Debug\AJM.Main.csproj.CopyComplete
+F:\VS2017 Workspace\AJM\AJM.Main\obj\Debug\AJM.Main.exe
+F:\VS2017 Workspace\AJM\AJM.Main\obj\Debug\AJM.Main.pdb
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Topshelf.dll
