@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+
+  <!-- 软件的错误报告发给谁，多个收件人用;隔开，最后一个不加 -->
+  <add key="ErrorReportTo" value="zhaoyi_dsx@163.com" />
+  <!-- 发出错误邮箱的地址 -->
+  <add key="ErrorReportMailUserName" value="957007164@qq.com" />
+  <!-- 发出错误邮箱的密码 -->
+  <add key="ErrorReportMailPassword" value="" />
+  <!-- 发出错误邮箱的名称 -->
+  <add key="ErrorReportMailName" value="系统邮件中心" />
+  <!-- 发出错误邮箱设置邮箱主机 -->
+  <add key="ErrorReportMailHost" value="smtp.qq.com" />
+
+</appSettings>

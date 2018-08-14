@@ -8,7 +8,8 @@ namespace AJM.Main.Job
 {
     /// <summary>
     /// 邮件发送任务
-    /// </summary>
+    /// </summary> 
+    [DisallowConcurrentExecution]//禁止并发执行
     public class SendEmailJob : BaseJob, IJob
     {
         #region Attribute

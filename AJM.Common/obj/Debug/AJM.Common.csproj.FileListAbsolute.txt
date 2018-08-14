@@ -14,7 +14,6 @@ F:\VS2017 Workspace\AJM\AJM.Common\bin\Debug\log4net.dll
 F:\VS2017 Workspace\AJM\AJM.Common\bin\Debug\Newtonsoft.Json.dll
 F:\VS2017 Workspace\AJM\AJM.Common\bin\Debug\log4net.xml
 F:\VS2017 Workspace\AJM\AJM.Common\bin\Debug\Newtonsoft.Json.xml
-F:\VS2017 Workspace\AJM\AJM.Common\obj\Debug\AJM.Common.csprojAssemblyReference.cache
 F:\VS2017 Workspace\AJM\AJM.Common\obj\Debug\AJM.Common.csproj.CoreCompileInputs.cache
 F:\VS2017 Workspace\AJM\AJM.Common\obj\Debug\AJM.Common.csproj.CopyComplete
 F:\VS2017 Workspace\AJM\AJM.Common\obj\Debug\AJM.Common.dll

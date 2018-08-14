@@ -4,3 +4,8 @@ F:\VS2017Workspace\AutoJobManager\AJM.Models\obj\Debug\AJM.Models.csprojResolveA
 F:\VS2017Workspace\AutoJobManager\AJM.Models\obj\Debug\AJM.Models.csproj.CoreCompileInputs.cache
 F:\VS2017Workspace\AutoJobManager\AJM.Models\obj\Debug\AJM.Models.dll
 F:\VS2017Workspace\AutoJobManager\AJM.Models\obj\Debug\AJM.Models.pdb
+F:\VS2017 Workspace\AJM\AJM.Models\bin\Debug\AJM.Models.dll
+F:\VS2017 Workspace\AJM\AJM.Models\bin\Debug\AJM.Models.pdb
+F:\VS2017 Workspace\AJM\AJM.Models\obj\Debug\AJM.Models.csproj.CoreCompileInputs.cache
+F:\VS2017 Workspace\AJM\AJM.Models\obj\Debug\AJM.Models.dll
+F:\VS2017 Workspace\AJM\AJM.Models\obj\Debug\AJM.Models.pdb

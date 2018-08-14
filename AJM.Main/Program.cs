@@ -17,24 +17,24 @@ namespace AJM.Main
             //};
             //ServiceBase.Run(servicesToRun);
 
-            HostFactory.Run(x =>
-            {
-                x.Service<AJMWindowsService>(s =>
-                {
-                    s.ConstructUsing(name => new AJMWindowsService());
+            //HostFactory.Run(x =>
+            //{
+            //    x.Service<AJMWindowsService>(s =>
+            //    {
+            //        s.ConstructUsing(name => new AJMWindowsService());
 
-                    s.WhenStarted(tc => tc.OnStart());
-                    s.WhenStopped(tc => tc.OnStopService());
-                });
-                x.RunAsLocalSystem();
+            //        s.WhenStarted(tc => tc.OnStart());
+            //        s.WhenStopped(tc => tc.OnStopService());
+            //    });
+            //    x.RunAsLocalSystem();
 
-                x.SetDescription("XXX服务描述");
-                x.SetDisplayName("显示名称");
-                x.SetServiceName("服务名称");
-            });
+            //    x.SetDescription("XXX服务描述");
+            //    x.SetDisplayName("显示名称");
+            //    x.SetServiceName("服务名称");
+            //});
 
-            //JobManage job = new JobManage();
-            //job.JobStart();
+            JobManage job = new JobManage();
+            job.JobStart();
         }
     }
 }

@@ -56,3 +56,5 @@ F:\VS2017 Workspace\AJM\AJM.Main\obj\Debug\AJM.Main.csproj.CopyComplete
 F:\VS2017 Workspace\AJM\AJM.Main\obj\Debug\AJM.Main.exe
 F:\VS2017 Workspace\AJM\AJM.Main\obj\Debug\AJM.Main.pdb
 F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\Topshelf.dll
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\XmlConfig\JobConfig.xml
+F:\VS2017 Workspace\AJM\AJM.Main\bin\Debug\XmlConfig\system.xml

@@ -37,5 +37,9 @@
         /// 跳过日期，格式：yyyyMMdd
         /// </summary>
         public string SkipDate { get; set; }
+        /// <summary>
+        /// 重复执行次数
+        /// </summary>
+        public string RepeatCount { get; set; }
     }
 }

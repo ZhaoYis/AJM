@@ -71,8 +71,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Template\eamil_template.html" />
-    <Content Include="XmlConfig\JobConfig.xml" />
-    <Content Include="XmlConfig\system.xml" />
+    <Content Include="XmlConfig\JobConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XmlConfig\system.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

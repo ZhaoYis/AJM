@@ -25,10 +25,13 @@
     <JobIdentityName>jb_SendEmail</JobIdentityName>
     <!--触发器身份名称-->
     <TriggerIdentityName>trigger_SendEmail</TriggerIdentityName>
-    <!--Cron表达式-->
-    <CronExpression>0 0/30 8 * * ? *</CronExpression>
+    <!--Cron表达式，如果为空，则任务默认执行一次 -->
+    <CronExpression>* 0/1 * * * ? *</CronExpression>
     <!--跳过日期，格式：yyyyMMdd-->
     <SkipDate></SkipDate>
+    <!--重复执行次数，如果为空，则按照Cron表达式设置执行，否则按照此配置执行。-->
+    <!--注意：如果只想任务执行一次，则该值可以配置成0或者Cron表达式留空-->
+    <RepeatCount></RepeatCount>
   </Setting>
   
   <Setting>
@@ -44,9 +47,12 @@
     <JobIdentityName>jb_TestJob</JobIdentityName>
     <!--触发器身份名称-->
     <TriggerIdentityName>trigger_TestJob</TriggerIdentityName>
-    <!--Cron表达式-->
-    <CronExpression>0,10,20,30,40,50 0/1 * * * ? </CronExpression>
+    <!--Cron表达式，如果为空，则任务默认执行一次 -->
+    <CronExpression></CronExpression>
     <!--跳过日期，格式：yyyyMMdd-->
     <SkipDate></SkipDate>
+    <!--重复执行次数，如果为空，则按照Cron表达式设置执行，否则按照此配置执行-->
+    <!--注意：如果只想任务执行一次，则该值可以配置成0或者Cron表达式留空-->
+    <RepeatCount>0</RepeatCount>
   </Setting>
 </AJMSettings>
