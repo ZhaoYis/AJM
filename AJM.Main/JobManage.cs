@@ -51,36 +51,31 @@ namespace AJM.Main
                 //    .WithCronSchedule(config.CronExpression)
                 //    .Build();
 
+                ITrigger trigger = null;
                 TriggerBuilder builder = TriggerBuilder.Create().WithIdentity(config.TriggerIdentityName, config.JobGroup);
 
                 if (!string.IsNullOrEmpty(config.CronExpression) && string.IsNullOrEmpty(config.RepeatCount))
                 {
                     //按照Cron表达式配置执行
-                    ICronTrigger trigger = (ICronTrigger)builder.WithCronSchedule(config.CronExpression).Build();
-
-                    foreach (PropertyInfo property in typeof(JobConfigEntity).GetProperties())
-                    {
-                        job.JobDataMap.Put(property.Name, property.GetValue(config, null));
-                    }
-                    DateTimeOffset ft = _sched.ScheduleJob(job, trigger);
+                    trigger = (ICronTrigger)builder.WithCronSchedule(config.CronExpression).Build();
                 }
                 else if (!string.IsNullOrEmpty(config.RepeatCount) || string.IsNullOrEmpty(config.CronExpression))
                 {
                     //按照自定义配置执行次数执行
                     int repeatCount = config.RepeatCount.TryToInt32();
 
-                    ISimpleTrigger trigger = (ISimpleTrigger)builder.WithSimpleSchedule(s =>
+                    trigger = (ISimpleTrigger)builder.WithSimpleSchedule(s =>
                        {
-                           //重复执行的次数，因为加入任务的时候马上执行了，所以不需要重复，否则会多一次。  
+                           //重复执行的次数，如果只执行一次，则为0，因为加入任务的时候马上执行了，所以不需要重复，否则会多一次。  
                            s.WithRepeatCount(repeatCount);
                        }).Build();
-
-                    foreach (PropertyInfo property in typeof(JobConfigEntity).GetProperties())
-                    {
-                        job.JobDataMap.Put(property.Name, property.GetValue(config, null));
-                    }
-                    DateTimeOffset ft = _sched.ScheduleJob(job, trigger);
                 }
+
+                foreach (PropertyInfo property in typeof(JobConfigEntity).GetProperties())
+                {
+                    job.JobDataMap.Put(property.Name, property.GetValue(config, null));
+                }
+                DateTimeOffset ft = _sched.ScheduleJob(job, trigger);
             }
             _sched.Start();
         }
